@@ -16,7 +16,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
             <span className="text-xl font-medium text-primary uppercase tracking-wider">{subtitle}</span>
             <hr className="w-32 border-t-2 border-gray-300" />
         </div>
-        <h2 className="text-6xl">{title}</h2>
+        <h2 className="text-6xl hidden md:block">{title}</h2>
     </div>
 );
 

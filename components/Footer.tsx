@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary py-12">
+    <footer className="bg-primary py-12 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Side - Logo and Description */}
@@ -40,8 +40,8 @@ export default function Footer() {
         </div>
         
         {/* Copyright */}
-        <div className="mt-12 pt-6 border-t border-gray-700 flex justify-end">
-          <p className="text-xs text-gray-400">
+        <div className="mt-12 pt-6 border-t border-secondary flex justify-end">
+          <p className="text-xs">
             © 2025 True Shine Home Services All rights reserved.
           </p>
         </div>

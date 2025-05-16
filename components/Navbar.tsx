@@ -25,7 +25,7 @@ export default function Navbar() {
           <Link href="#testimonials" className="text-2xl hover:text-primary">
             Testimonials
           </Link>
-          <Link href="#contact" className="bg-primary text-white px-4 py-2 rounded hover:bg-primary-dark transition">
+          <Link href="/book-now" className="bg-primary text-white px-4 py-2 rounded hover:bg-primary-dark transition">
             Book Now
           </Link>
         </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
           <Link href="#testimonials" className="block py-2">
             Testimonials
           </Link>
-          <Link href="#contact" className="block py-2 text-white bg-primary rounded text-center mt-2">
+          <Link href="/book-now" className="block py-2 text-white bg-primary rounded text-center mt-2">
             Book Now
           </Link>
         </div>

@@ -19,10 +19,10 @@ export default function CTASection() {
                         </div>
 
                         {/* Main CTA blue box */}
-                        <div className="ml-16 mr-16 bg-blue-600 rounded-lg shadow-xl overflow-hidden">
-                            <div className="px-6 py-12 md:py-16 md:px-12 text-center text-white">
+                        <div className="flex ml-16 mr-16 bg-primary rounded-lg shadow-xl overflow-hidden justify-center items-center">
+                            <div className="max-w-lg px-6 py-12 md:py-16 md:px-12 text-center text-white">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready To Start Your Project?</h2>
-                                <p className="mb-8 text-lg">
+                                <p className="mb-8 text">
                                     Want to make your dream home a reality in the Greater Toronto Area? Look no further than Absolute Home Services. Contact us today and receive a free quote!
                                 </p>
                                 <Button text="Get a Free Quote" variant="secondary" />

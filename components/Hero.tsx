@@ -10,8 +10,8 @@ export default function HeroSection() {
                   <h2 className="text-2xl text-white">Our team of hardworking professionals work hard to give your house the cleaning it deserves.</h2>
               </div>
               <div className="flex gap-4 mt-8">
-                  <Button text="Book Now" variant="primary" />
-                  <Button text="See Projects" variant="secondary" /> 
+                  <Button text="Book Now" variant="primary" href="/book-now" />
+                  <Button text="See Projects" variant="secondary" href="/projects"/> 
               </div>
             </div>
         </div>
